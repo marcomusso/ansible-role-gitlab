@@ -1,5 +1,8 @@
 # The URL through which GitLab will be accessed.
 external_url "{{ gitlab_external_url }}"
+#mattermost_external_url "{{ mattermost_external_url }}"
+
+nginx['enable'] = "{{ nginx_enable }}"
 
 # Whether to redirect http to https.
 nginx['redirect_http_to_https'] = {{ gitlab_redirect_http_to_https }}

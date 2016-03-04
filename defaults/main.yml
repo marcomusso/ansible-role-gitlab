@@ -2,6 +2,8 @@
 # General config.
 gitlab_external_url: "https://gitlab/"
 gitlab_git_data_dir: "/var/opt/gitlab/git-data"
+mattermost_external_url: "https://mattermost/"
+nginx_enable: true
 
 # SSL Configuration.
 gitlab_redirect_http_to_https: "true"
